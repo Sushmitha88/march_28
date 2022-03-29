@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>check weather a given integer is within 20 of 100 0r 400</title>
+</head>
+<body>
+    <script>
+        function int(x) {
+  return ((Math.abs(100 - x) <= 20) || (Math.abs(400 - x) <= 20));
+}
+
+console.log(int(380));
+console.log(int(430));
+    </script>
+</body>
+</html>

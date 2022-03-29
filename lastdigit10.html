@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function integersame(x, y, z)
+        {
+            if((x > 0) && y > 0 && z > 0)
+            {
+                return(x % 10 == y % 10 && y % 10 == z % 10 && x % 10 == z % 10)
+            }
+        else
+        return false;
+    }
+    console.log(integersame(88, 28, 68));
+    </script>
+</body>
+</html>
